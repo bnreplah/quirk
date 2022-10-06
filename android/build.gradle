@@ -89,3 +89,7 @@ allprojects {
 task clean(type: Delete) {
   delete rootProject.buildDir
 }
+
+project.ext.react = [
+      bundleAssetName: "main.jsbundle",
+]
